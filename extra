@@ -1,0 +1,26 @@
+Equals: a == b
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+mylist = ["apple", "banana", "cherry"]
+print(random.choice(mylist))
+import random
+mylist = ["apple", "banana", "cherry"]
+print(random.sample(mylist, k=2))
+import random
+print(random.randint(3, 9))
+import random
+print(random.randrange(1,10))
+import time
+print(time.gmtime(0))
+import time
+
+for a in range(2):
+    a=5
+    print(a)
+    time.sleep(2)
+
+
+
